@@ -10,7 +10,10 @@ export default function App() {
     </View>
   );
 }
-asdfasldfjalksdjf;laksdflk
+asdfasldfjalksdjf;laksdflk\sd
+asdfasdf
+sdfasf
+
 
 const styles = StyleSheet.create({
   container: {
