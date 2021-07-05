@@ -13,7 +13,7 @@ export default function App() {
 asdfasldfjalksdjf;laksdflk\sd
 asdfasdf
 sdfasf
-
+fgdfgdfg
 
 const styles = StyleSheet.create({
   container: {
