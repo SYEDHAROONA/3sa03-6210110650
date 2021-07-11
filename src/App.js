@@ -9,6 +9,7 @@ function App() {
         <div>
             Shuffle Game: Arrange the following words correctly.
              <WordCard value={word}/>
+            }
         </div>
         );
        
