@@ -7,6 +7,7 @@ const word = "Hello";
 function App() {
     return (
         <div>
+            Shuffle Game: Arrange the following words correctly.
              <WordCard value={word}/>
         </div>
         );
