@@ -27,20 +27,24 @@ export default function WordCard(props){
                 console.log('yeah!')
                 setState({...state, guess: '', completed: true})
             }else{
+                if ((state.attempt == 1)) {
+                console.log('Hint: what would do if you happy.')    
+                }
+                if ((state.attempt == 2)) {
+                console.log('Hint:move some organe on your face.')
+                
+                }
+                if ((state.attempt == 3)) {
+                console.log('so close')
+                }
+                if ((state.attempt < 5)){
                 console.log('reset,Please try again')
                 setState({...state, guess: '', attempt: state.attempt + 1})
+                }else if((state.attempt == 5)){
+                    console.log('Game over')  
+                }
             }
-            if ((state.attempt == 1)) {
-                console.log('Hint: what would do if you happy.')    
-            }
-            if ((state.attempt == 2)) {
-                console.log('move some organe on your face.')
-                
-            }
-            if ((state.attempt == 3)) {
-                console.log('close')
-            }
-           
+            
         }
     }
 
